@@ -1,0 +1,46 @@
+name: build
+
+on:
+  # Trigger the workflow on push or pull request,
+  push:
+  pull_request:
+  schedule:
+    # 7am UTC, 12am PDT
+    - cron:  '0 7 * * *'
+  # allow manually starting this workflow
+  workflow_dispatch:
+
+jobs:
+  Linux:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - uses: DoozyX/clang-format-lint-action@v0.11
+      with:
+        source: 'src include'
+        extensions: 'h,cpp'
+        clangFormatVersion: 11
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get -y install xorg-dev libboost-all-dev libudev-dev
+
+    - name: Building
+      run: |
+        mkdir build
+        cd build
+        cmake ..
+        make
+
+  MacOS:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Building
+      run: |
+        mkdir build
+        cd build
+        cmake ..
+        make
