@@ -26,6 +26,24 @@ You can either manually run these commands or sudo execute the install script in
 
 #### Mac
 
+**Brew**
+
+You should have brew to make everything easier. You can find it [here](https://brew.sh/). You can install cmake and the other libs manually but Brew will make it easier.
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install cmake
+
+brew install freetype
+
+brew install openssl
+
+brew install libffi
+
+brew install sfml
+```
+
 For those who use Mac, you get to go through xcode hell and wait 20 years to install it. You can find it here at [apps.apple.com](https://apps.apple.com/us/app/xcode/id497799835?mt=12). If xcode doesn't install make run `brew install make` to install make.
 
 ![](figures/xcode.png)
