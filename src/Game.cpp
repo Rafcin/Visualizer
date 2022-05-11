@@ -265,8 +265,6 @@ void Game::render() {
 
     ImGui::End();  // dockspace end
 
-    // ImGui::ShowDemoWindow();
-
     ImGui::SFML::Render(*window_);
     window_->display();
     render_texture_->display();

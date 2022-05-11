@@ -1,5 +1,7 @@
 # Visualizer
 
+![CI](https://github.com/Rafcin/Visualizer/workflows/build/badge.svg)
+
 ## **Dependencies**
 
 - **cmake >= 3.14**
