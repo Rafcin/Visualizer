@@ -7,7 +7,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
+<<<<<<< HEAD
 # Make data base, printed on Thu May 12 14:50:33 2022
+=======
+# Make data base, printed on Tue May 10 19:47:53 2022
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 
 # Variables
 
@@ -30,27 +34,69 @@ CURDIR := /Users/rafaelszuminski/Desktop/Visualizer
 # makefile
 SHELL = /bin/sh
 # environment
+<<<<<<< HEAD
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
+=======
+SNAP_DATA = /var/snap/code/96
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:47557
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# environment
+WALLABY_PRODUCTION = true
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # makefile
 MAKEFILE_LIST := 
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
+<<<<<<< HEAD
 __CFBundleIdentifier = com.microsoft.VSCode
+=======
+_ = /snap/code/96/usr/share/code/code
+# environment
+MANAGERPID = 2111
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/raf
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/raf/.local/bin:/home/raf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # environment
 VSCODE_IPC_HOOK_EXTHOST = /var/folders/w0/0sm428sd2px0h4htpyrd_qcr0000gp/T/vscode-ipc-c2f89c4d-4884-43a4-8a3a-01174b83b47b.sock
 # environment
+<<<<<<< HEAD
 VSCODE_CWD = /
+=======
+SESSION_MANAGER = local/Raf-Desktop:@/tmp/.ICE-unix/2323,unix/Raf-Desktop:/tmp/.ICE-unix/2323
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # environment
 PATH = /Users/rafaelszuminski/google-cloud-sdk/bin:/Users/rafaelszuminski/miniconda2/bin:/Users/rafaelszuminski/Ndless/ndless-sdk/toolchain/install/bin:/Users/rafaelszuminski/Ndless/ndless-sdk/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/rafaelszuminski/Ndless/ndless-sdk/toolchain/install/bin:/Users/rafaelszuminski/Ndless/ndless-sdk/bin:/usr/local/go/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/rafaelszuminski/NVPACK/android-ndk-r10e:/Users/rafaelszuminski/NVPACK/apache-ant-1.8.2/bin:/Users/rafaelszuminski/NVPACK/gradle-2.2.1/bin:/Users/rafaelszuminski/NVPACK/android-sdk-macosx/tools:/Users/rafaelszuminski/NVPACK/android-sdk-macosx/platform-tools:/Users/rafaelszuminski/NVPACK/android-sdk-macosx/build-tools:/Users/rafaelszuminski/NVPACK/android-sdk-macosx/extras/android/support:/Users/rafaelszuminski/NVPACK/android-sdk-macosx/platform-tools:/Users/rafaelszuminski/NVPACK/android-sdk-macosx/build-tools:/Users/rafaelszuminski/NVPACK/android-sdk-macosx/tools:/Users/rafaelszuminski/NVPACK/android-ndk-r10c:/Users/rafaelszuminski/NVPACK/apache-ant-1.8.2/bin:/Users/rafaelszuminski/NVPACK/gradle-2.1/bin
 # environment
 NVPACK_ROOT = /Users/rafaelszuminski/NVPACK
 # environment
+<<<<<<< HEAD
 NDK_STANDALONE_46_ANDROID9 = /Users/rafaelszuminski/NVPACK/android-ndk-r10c/toolchains/arm-linux-androideabi-4.6/gen_standalone/darwin-x86
 # environment
 GOPATH = /Users/rafaelszuminski/go
+=======
+SNAP = /snap/code/96
+# environment
+SNAP_VERSION = da15b6fd
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # environment
 LaunchInstanceID = 5AA97CDD-0625-4AD1-B3A1-0A16F3EE6DFB
 # environment
@@ -58,11 +104,21 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
+<<<<<<< HEAD
 ANDROID_HOME = /Users/rafaelszuminski/NVPACK/android-sdk-macosx
+=======
+INVOCATION_ID = f542033616244bef87535484dfc6e8af
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
+<<<<<<< HEAD
 SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.86EkgRSrYx/Listeners
+=======
+GIO_LAUNCHED_DESKTOP_FILE_PID = 44810
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # automatic
 %F = $(notdir $%)
 # environment
@@ -72,15 +128,41 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/rafaelszuminski/Desktop/Visualizer
 # environment
+<<<<<<< HEAD
 ANT_HOME = /Users/rafaelszuminski/NVPACK/apache-ant-1.8.2
+=======
+PWD = /home/raf/Desktop/visualizer
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2288
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
+<<<<<<< HEAD
 HOME = /Users/rafaelszuminski
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+=======
+HOME = /home/raf
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/raf/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+LOGNAME = raf
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = f2YME1Z0CALSkyYpCtIsgoywATshqdhkAMfUCOoBjZxPjIjG9BwP
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/rafaelszuminski/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
@@ -98,13 +180,29 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
+<<<<<<< HEAD
 SHLVL = 2
 # environment
 JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home
+=======
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/raf/snap/code/96
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6802ae36-6a7c-4383-87f3-b9be448fd04b.sock
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # default
 MAKE_VERSION := 3.81
 # environment
+<<<<<<< HEAD
 USER = rafaelszuminski
+=======
+SNAP_REVISION = 96
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # makefile
 .DEFAULT_GOAL := 
 # automatic
@@ -118,7 +216,13 @@ TMPDIR = /var/folders/w0/0sm428sd2px0h4htpyrd_qcr0000gp/T/
 # automatic
 *F = $(notdir $*)
 # environment
+<<<<<<< HEAD
 VSCODE_IPC_HOOK = /Users/rafaelszuminski/Library/Application Support/Code/1.67.1-main.sock
+=======
+VSCODE_IPC_HOOK = /run/user/1000/vscode-90f581c9-1.67.1-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -158,7 +262,11 @@ MAKELEVEL := 0
 # environment
 NVPACK_NDK_VERSION = android-ndk-r10e
 # environment
+<<<<<<< HEAD
 LANG = C
+=======
+VSCODE_PID = 44857
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 # environment
 VSCODE_PID = 1513
 # variable set hash-table stats:
@@ -170,7 +278,11 @@ VSCODE_PID = 1513
 
 # Directories
 
+<<<<<<< HEAD
 # . (device 16777220, inode 8616293676): 21 files, no impossibilities.
+=======
+# . (device 2065, inode 26363987): 21 files, no impossibilities.
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 
 # 21 files, no impossibilities in 1 directories.
 
@@ -239,12 +351,22 @@ GNUmakefile:
 
 # No general (`VPATH' variable) search path.
 
+<<<<<<< HEAD
 # # of strings in strcache: 0
 # # of strcache buffers: 0
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
 # Finished Make data base on Thu May 12 14:50:33 2022
+=======
+# strcache buffers: 1 (0) / strings = 29 / storage = 250 B / avg = 8 B
+# current buf: size = 8162 B / used = 250 B / count = 29 / avg = 8 B
+
+# strcache performance: lookups = 32 / hit rate = 9%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=1/32=3%
+# Finished Make data base on Tue May 10 19:47:53 2022
+>>>>>>> b22d025abd8aacc372515b5fea972cde721f1aac
 
  
 make: *** No rule to make target `all'.  Stop.
