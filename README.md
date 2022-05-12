@@ -26,6 +26,14 @@ You can either manually run these commands or sudo execute the install script in
 
 #### Mac
 
+**Xcode**
+
+Make sure you install Xcode versions >=12.5, ideally 13.X otherwise you will run into issues with freetype2 headers during compilation. 
+
+**Arm** 
+
+For users using Apple Silicon, you will need to install [Rosetta 2](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/) and set your terminal to use Rosetta 2. Without this you will run into build issues. Once you install Rosetta follow [this guide](https://osxdaily.com/2021/02/06/installing-homebrew-apple-silicon-mac-native/) for how to install Brew.
+
 **Brew**
 
 You should have brew to make everything easier. You can find it [here](https://brew.sh/). You can install cmake and the other libs manually but Brew will make it easier.
@@ -153,4 +161,4 @@ This drove me nuts but if you want to, read up on [IMGUI-SFML](https://github.co
 
 ## Notes
 
-I forked this from another repo and added some features from a few other random repos I found while exploring. I also added a random obstacles function, better docs, performance fixes, fixed UI glitches between environments, and set up some build tools. Hope this is useful!
+I forked this from another repo and added some features from a few other random repos I found while exploring. I also added a random obstacles function, better docs, performance fixes, fixed UI glitches between environments, and set up some build tools. Hope this is useful! (Phone Thiha Kyaw seems to be the og author)
