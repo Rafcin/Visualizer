@@ -2,6 +2,8 @@
 
 ![CI](https://github.com/Rafcin/Visualizer/workflows/build/badge.svg)
 
+Github CI checks if the current deployment deploys on Mac and Linux.
+
 ## **Dependencies**
 
 - **cmake >= 3.14**
@@ -337,10 +339,10 @@ void BFS::updatePlanner(bool &solved, Node &start_node, Node &end_node) {
 
 Make sure that once the classes are created you update the UI dropdown in the root and you update the ini file. DFS and BFS are implemented in the root, you can follow the sample implementation process.
 
+Don't isolate the rendering logic. You should create rendering methods per planner, and if planners are similar then extend them.
+
+For more info regarding rendering check the BFS class comments.
+
 ## **SFML**
 
 This drove me nuts but if you want to, read up on [IMGUI-SFML](https://github.com/eliasdaler/imgui-sfml) and you can technically turn this into pacman by adding some custom assets.
-
-## **Notes**
-
-I forked this from another repo and added some features from a few other random repos I found while exploring. I also added a random obstacles function, better docs, performance fixes, fixed UI glitches between environments, and set up some build tools. Hope this is useful! (Phone Thiha Kyaw seems to be the og author)

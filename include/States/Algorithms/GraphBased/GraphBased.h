@@ -36,6 +36,7 @@ class GraphBased : public State {
   // virtual functions
   virtual void clearObstacles();
   virtual void generateObstacles(int& density);
+  virtual void generateMaze();
   virtual void renderGui();
   // render planner specific parameters
   virtual void renderParametersGui() = 0;
@@ -56,7 +57,7 @@ class GraphBased : public State {
   // initialization Functions
   void initColors();
   void initVariables();
-  void initGridMapParams();
+  void initGridParams();
   void initNodes(bool reset = true, bool reset_neighbours_only = false);
 
   // colors

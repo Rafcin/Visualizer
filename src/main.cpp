@@ -10,8 +10,8 @@
 int main() {
   sf::VideoMode videoMode(1600u, 960u);
   sf::RenderWindow window(
-      videoMode, "Visualizer",
-      sf::Style::Titlebar | sf::Style::Close | sf::Style::Resize);
+    videoMode, "Visualizer",
+    sf::Style::Titlebar | sf::Style::Close | sf::Style::Resize);
   // setting frame limit
   window.setFramerateLimit(100u);
 

@@ -23,3 +23,10 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(imgui)
 add_subdirectory(imgui-sfml)
+
+FetchContent_Declare(
+	imguizmo
+	GIT_REPOSITORY https://github.com/CedricGuillemet/ImGuizmo.git
+  GIT_TAG master
+)
+FetchContent_MakeAvailable(imguizmo)
