@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Clipboard.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Clipboard.cpp
 SFML/Window/Clipboard.hpp
 -
 SFML/Window/ClipboardImpl.hpp
@@ -14,7 +14,7 @@ SFML/Window/ClipboardImpl.hpp
 SFML/System/String.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Context.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Context.cpp
 SFML/Window/Context.hpp
 -
 SFML/Window/GlContext.hpp
@@ -22,13 +22,13 @@ SFML/Window/GlContext.hpp
 SFML/System/ThreadLocalPtr.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Cursor.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Cursor.cpp
 SFML/Window/Cursor.hpp
 -
 SFML/Window/CursorImpl.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/GlContext.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/GlContext.cpp
 SFML/Window/GlContext.hpp
 -
 SFML/Window/Context.hpp
@@ -72,29 +72,29 @@ SFML/Window/iOS/EaglContext.hpp
 SFML/Window/EglContext.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/GlResource.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/GlResource.cpp
 SFML/Window/GlResource.hpp
 -
 SFML/Window/GlContext.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Joystick.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Joystick.cpp
 SFML/Window/Joystick.hpp
 -
 SFML/Window/JoystickManager.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/JoystickManager.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/JoystickManager.cpp
 SFML/Window/JoystickManager.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Keyboard.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Keyboard.cpp
 SFML/Window/Keyboard.hpp
 -
 SFML/Window/InputImpl.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Mouse.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Mouse.cpp
 SFML/Window/Mouse.hpp
 -
 SFML/Window/InputImpl.hpp
@@ -102,25 +102,25 @@ SFML/Window/InputImpl.hpp
 SFML/Window/Window.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Sensor.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Sensor.cpp
 SFML/Window/Sensor.hpp
 -
 SFML/Window/SensorManager.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/SensorManager.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/SensorManager.cpp
 SFML/Window/SensorManager.hpp
 -
 SFML/System/Err.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Touch.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Touch.cpp
 SFML/Window/Touch.hpp
 -
 SFML/Window/InputImpl.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/ClipboardImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/ClipboardImpl.cpp
 SFML/Window/Unix/ClipboardImpl.hpp
 -
 SFML/Window/Unix/Display.hpp
@@ -134,7 +134,7 @@ X11/Xatom.h
 vector
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.cpp
 SFML/Window/Unix/CursorImpl.hpp
 -
 SFML/Window/Unix/Display.hpp
@@ -150,7 +150,7 @@ cstdlib
 vector
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/Display.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/Display.cpp
 SFML/System/Err.hpp
 -
 SFML/System/Mutex.hpp
@@ -168,7 +168,7 @@ cstdlib
 map
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.cpp
 SFML/Window/Unix/WindowImplX11.hpp
 -
 SFML/Window/Unix/GlxContext.hpp
@@ -184,7 +184,7 @@ SFML/System/Err.hpp
 vector
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/GlxExtensions.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/GlxExtensions.cpp
 SFML/Window/Unix/GlxExtensions.hpp
 -
 SFML/Window/Context.hpp
@@ -198,7 +198,7 @@ cstddef
 string
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/InputImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/InputImpl.cpp
 SFML/Window/Window.hpp
 -
 SFML/Window/Unix/InputImpl.hpp
@@ -212,7 +212,7 @@ X11/Xlib.h
 X11/keysym.h
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.cpp
 SFML/Window/JoystickImpl.hpp
 -
 SFML/System/Err.hpp
@@ -234,11 +234,11 @@ string
 cstring
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.cpp
 SFML/Window/SensorImpl.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/VideoModeImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/VideoModeImpl.cpp
 SFML/Window/VideoModeImpl.hpp
 -
 SFML/Window/Unix/Display.hpp
@@ -252,7 +252,7 @@ X11/extensions/Xrandr.h
 algorithm
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp
 SFML/Window/Unix/WindowImplX11.hpp
 -
 SFML/Window/Unix/ClipboardImpl.hpp
@@ -304,7 +304,7 @@ SFML/Window/EglContext.hpp
 SFML/Window/Unix/GlxContext.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/VideoMode.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/VideoMode.cpp
 SFML/Window/VideoMode.hpp
 -
 SFML/Window/VideoModeImpl.hpp
@@ -314,7 +314,7 @@ algorithm
 functional
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/Window.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/Window.cpp
 SFML/Window/Window.hpp
 -
 SFML/Window/GlContext.hpp
@@ -326,7 +326,7 @@ SFML/System/Sleep.hpp
 SFML/System/Err.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Window/WindowImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Window/WindowImpl.cpp
 SFML/Window/WindowImpl.hpp
 -
 SFML/Window/Event.hpp

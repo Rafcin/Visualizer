@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_demo.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_demo.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_draw.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_draw.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_tables.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_tables.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_widgets.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_widgets.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/misc/cpp/imgui_stdlib.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.cpp" "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_demo.cpp" "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_demo.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_draw.cpp" "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_draw.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_tables.cpp" "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_tables.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_widgets.cpp" "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/imgui_widgets.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp" "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/__/imgui-src/misc/cpp/imgui_stdlib.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML.cpp" "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -41,9 +41,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
+  "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
+  "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
+  "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

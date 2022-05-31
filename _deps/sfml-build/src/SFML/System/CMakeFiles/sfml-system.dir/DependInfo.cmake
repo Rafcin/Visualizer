@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Clock.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Err.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/FileInputStream.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Lock.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/MemoryInputStream.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Mutex.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Sleep.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/String.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Thread.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/ThreadLocal.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Time.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Unix/ClockImpl.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Unix/MutexImpl.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Unix/ThreadImpl.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System/Unix/ThreadLocalImpl.cpp" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Clock.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Err.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/FileInputStream.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Lock.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/MemoryInputStream.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Mutex.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Sleep.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/String.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Thread.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/ThreadLocal.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Time.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Unix/ClockImpl.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Unix/MutexImpl.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Unix/SleepImpl.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Unix/ThreadImpl.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o"
+  "/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System/Unix/ThreadLocalImpl.cpp" "/home/raf/Desktop/visualizer/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -47,8 +47,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib/libsfml-system.so" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5.1"
-  "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5" "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5.1"
+  "/home/raf/Desktop/visualizer/_deps/sfml-build/lib/libsfml-system.so" "/home/raf/Desktop/visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5.1"
+  "/home/raf/Desktop/visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5" "/home/raf/Desktop/visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5.1"
   )
 
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/path-finding-visualizer.iml" filepath="$PROJECT_DIR$/.idea/path-finding-visualizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/visualizer.iml" filepath="$PROJECT_DIR$/.idea/visualizer.iml" />
     </modules>
   </component>
 </project>

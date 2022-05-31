@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild
+CMAKE_SOURCE_DIR = /home/raf/Desktop/visualizer/_deps/imgui-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild
+CMAKE_BINARY_DIR = /home/raf/Desktop/visualizer/_deps/imgui-subbuild
 
 # Utility rule file for imgui-populate.
 
@@ -65,58 +65,58 @@ CMakeFiles/imgui-populate-complete: imgui-populate-prefix/src/imgui-populate-sta
 CMakeFiles/imgui-populate-complete: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build
 CMakeFiles/imgui-populate-complete: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install
 CMakeFiles/imgui-populate-complete: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'imgui-populate'"
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'imgui-populate'"
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'imgui-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'imgui-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'imgui-populate'"
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-src
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'imgui-populate'"
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-src
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-build
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-gitinfo.txt
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'imgui-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps && /usr/bin/cmake -P /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitclone.cmake
-	cd /home/raf/Desktop/path-finding-visualizer/_deps && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'imgui-populate'"
+	cd /home/raf/Desktop/visualizer/_deps && /usr/bin/cmake -P /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitclone.cmake
+	cd /home/raf/Desktop/visualizer/_deps && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'imgui-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-src && /usr/bin/cmake -P /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'imgui-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/imgui-src && /usr/bin/cmake -P /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/tmp/imgui-populate-gitupdate.cmake
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'imgui-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'imgui-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure: imgui-populate-prefix/tmp/imgui-populate-cfgcmd.txt
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'imgui-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'imgui-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'imgui-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'imgui-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build
 
 imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test: imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'imgui-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'imgui-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/imgui-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test
 
 imgui-populate: CMakeFiles/imgui-populate
 imgui-populate: CMakeFiles/imgui-populate-complete
@@ -142,6 +142,6 @@ CMakeFiles/imgui-populate.dir/clean:
 .PHONY : CMakeFiles/imgui-populate.dir/clean
 
 CMakeFiles/imgui-populate.dir/depend:
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/imgui-subbuild/CMakeFiles/imgui-populate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/raf/Desktop/visualizer/_deps/imgui-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raf/Desktop/visualizer/_deps/imgui-subbuild /home/raf/Desktop/visualizer/_deps/imgui-subbuild /home/raf/Desktop/visualizer/_deps/imgui-subbuild /home/raf/Desktop/visualizer/_deps/imgui-subbuild /home/raf/Desktop/visualizer/_deps/imgui-subbuild/CMakeFiles/imgui-populate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imgui-populate.dir/depend
 

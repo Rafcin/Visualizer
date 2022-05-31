@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML.cpp
+/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML.cpp
 imgui-SFML.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML.h
+/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML.h
 imgui.h
 -
 SFML/Config.hpp
@@ -52,7 +52,7 @@ android/native_activity.h
 jni.h
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML.h
+/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML.h
 SFML/Graphics/Color.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -64,17 +64,17 @@ SFML/System/Vector2.hpp
 SFML/Window/Joystick.hpp
 -
 imgui-SFML_export.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML_export.h
+/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML_export.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML_export.h
+/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML_export.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imconfig.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imconfig.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.cpp
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.cpp
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h
 imgui_internal.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_internal.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_internal.h
 ctype.h
 -
 stdio.h
@@ -90,15 +90,15 @@ windows.h
 TargetConditionals.h
 -
 stb_sprintf.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/stb_sprintf.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/stb_sprintf.h
 Carbon/Carbon.h
 -
 imgui_user.inl
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_user.inl
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_user.inl
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h
 imconfig.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imconfig.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imconfig.h
 float.h
 -
 stdarg.h
@@ -112,11 +112,11 @@ assert.h
 stdint.h
 -
 imgui_user.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_user.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_user.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_demo.cpp
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_demo.cpp
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h
 ctype.h
 -
 limits.h
@@ -132,13 +132,13 @@ stddef.h
 stdint.h
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_draw.cpp
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_draw.cpp
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h
 imgui_internal.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_internal.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_internal.h
 misc/freetype/imgui_freetype.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/freetype/imgui_freetype.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/misc/freetype/imgui_freetype.h
 stdio.h
 -
 alloca.h
@@ -148,13 +148,13 @@ malloc.h
 stdlib.h
 -
 imstb_rectpack.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_rectpack.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_rectpack.h
 imstb_truetype.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_truetype.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_truetype.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_internal.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_internal.h
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h
 stdio.h
 -
 stdlib.h
@@ -166,23 +166,23 @@ limits.h
 immintrin.h
 -
 imstb_textedit.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_textedit.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_textedit.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_tables.cpp
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_tables.cpp
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h
 imgui_internal.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_internal.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_internal.h
 stddef.h
 -
 stdint.h
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_widgets.cpp
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_widgets.cpp
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h
 imgui_internal.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_internal.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_internal.h
 ctype.h
 -
 stddef.h
@@ -190,25 +190,25 @@ stddef.h
 stdint.h
 -
 imstb_textedit.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_textedit.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_textedit.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_rectpack.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_rectpack.h
 stdlib.h
 -
 assert.h
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_textedit.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_textedit.h
 string.h
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_truetype.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_truetype.h
 stb_truetype.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/stb_truetype.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/stb_truetype.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/stb_truetype.h
 math.h
 -
 math.h
@@ -228,19 +228,19 @@ string.h
 string.h
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp
+/home/raf/Desktop/visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/cpp/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/misc/cpp/imgui.h
 imgui_stdlib.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.h
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.h
 string
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/freetype/imgui_freetype.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/misc/freetype/imgui_freetype.h
 imgui.h
-/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/freetype/imgui.h
+/home/raf/Desktop/visualizer/_deps/imgui-src/misc/freetype/imgui.h
 
 _deps/imgui-src/imconfig.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/raf/Desktop/path-finding-visualizer/dependencies/imgui-sfml
+# Install script for directory: /home/raf/Desktop/visualizer/dependencies/imgui-sfml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/cmake_install.cmake")
+  include("/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/cmake_install.cmake")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src
+# Install script for directory: /home/raf/Desktop/visualizer/_deps/imgui-sfml-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libImGui-SFML.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/libImGui-SFML.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/libImGui-SFML.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libImGui-SFML.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libImGui-SFML.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libImGui-SFML.so"
-         OLD_RPATH "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib:"
+         OLD_RPATH "/home/raf/Desktop/visualizer/_deps/sfml-build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libImGui-SFML.so")
@@ -62,16 +62,16 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imgui-SFML_export.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src/imconfig-SFML.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imconfig.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imgui_internal.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_rectpack.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_textedit.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/imstb_truetype.h"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imgui-SFML_export.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-sfml-src/imconfig-SFML.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-src/imconfig.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-src/imgui.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-src/imgui_internal.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_rectpack.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_textedit.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-src/imstb_truetype.h"
+    "/home/raf/Desktop/visualizer/_deps/imgui-src/misc/cpp/imgui_stdlib.h"
     )
 endif()
 
@@ -79,7 +79,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ImGui-SFML/ImGui-SFMLConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ImGui-SFML/ImGui-SFMLConfig.cmake"
-         "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/Export/lib/cmake/ImGui-SFML/ImGui-SFMLConfig.cmake")
+         "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/Export/lib/cmake/ImGui-SFML/ImGui-SFMLConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ImGui-SFML/ImGui-SFMLConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -88,9 +88,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ImGui-SFML" TYPE FILE FILES "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/Export/lib/cmake/ImGui-SFML/ImGui-SFMLConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ImGui-SFML" TYPE FILE FILES "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/Export/lib/cmake/ImGui-SFML/ImGui-SFMLConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ImGui-SFML" TYPE FILE FILES "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build/CMakeFiles/Export/lib/cmake/ImGui-SFML/ImGui-SFMLConfig-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ImGui-SFML" TYPE FILE FILES "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build/CMakeFiles/Export/lib/cmake/ImGui-SFML/ImGui-SFMLConfig-noconfig.cmake")
   endif()
 endif()
 

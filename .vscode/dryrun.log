@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/rafaelszuminski/Desktop/Visualizer'
-make: Leaving directory `/Users/rafaelszuminski/Desktop/Visualizer'
+make: Entering directory '/home/raf/Desktop/visualizer'
+make: Leaving directory '/home/raf/Desktop/visualizer'
  
 make: *** No targets specified and no makefile found.  Stop.
 

@@ -12,8 +12,8 @@ project(sfml-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(sfml-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/SFML/SFML" "GIT_TAG" "2f11710abc5aa478503a7ff3f9e654bd2078ebab"
-                    SOURCE_DIR          "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src"
-                    BINARY_DIR          "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build"
+                    SOURCE_DIR          "/home/raf/Desktop/visualizer/_deps/sfml-src"
+                    BINARY_DIR          "/home/raf/Desktop/visualizer/_deps/sfml-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

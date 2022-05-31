@@ -12,8 +12,8 @@ project(imgui-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(imgui-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/ocornut/imgui" "GIT_TAG" "719d9313041b85227a3e6deb289a313819aaeab3"
-                    SOURCE_DIR          "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-src"
-                    BINARY_DIR          "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-build"
+                    SOURCE_DIR          "/home/raf/Desktop/visualizer/_deps/imgui-src"
+                    BINARY_DIR          "/home/raf/Desktop/visualizer/_deps/imgui-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

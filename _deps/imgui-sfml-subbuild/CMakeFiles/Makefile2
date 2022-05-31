@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-subbuild
+CMAKE_SOURCE_DIR = /home/raf/Desktop/visualizer/_deps/imgui-sfml-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-subbuild
+CMAKE_BINARY_DIR = /home/raf/Desktop/visualizer/_deps/imgui-sfml-subbuild
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/imgui-sfml-populate.dir/clean
 CMakeFiles/imgui-sfml-populate.dir/all:
 	$(MAKE) -f CMakeFiles/imgui-sfml-populate.dir/build.make CMakeFiles/imgui-sfml-populate.dir/depend
 	$(MAKE) -f CMakeFiles/imgui-sfml-populate.dir/build.make CMakeFiles/imgui-sfml-populate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-subbuild/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target imgui-sfml-populate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raf/Desktop/visualizer/_deps/imgui-sfml-subbuild/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target imgui-sfml-populate"
 .PHONY : CMakeFiles/imgui-sfml-populate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/imgui-sfml-populate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-subbuild/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/visualizer/_deps/imgui-sfml-subbuild/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imgui-sfml-populate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-subbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/visualizer/_deps/imgui-sfml-subbuild/CMakeFiles 0
 .PHONY : CMakeFiles/imgui-sfml-populate.dir/rule
 
 # Convenience name for target.

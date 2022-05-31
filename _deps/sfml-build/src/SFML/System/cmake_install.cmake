@@ -1,4 +1,4 @@
-# Install script for directory: /home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/System
+# Install script for directory: /home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,8 +50,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONEN
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5.1"
-    "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5"
+    "/home/raf/Desktop/visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5.1"
+    "/home/raf/Desktop/visualizer/_deps/sfml-build/lib/libsfml-system.so.2.5"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-system.so.2.5.1"
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONEN
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-system.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/raf/Desktop/path-finding-visualizer/_deps/sfml-build/lib/libsfml-system.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/raf/Desktop/visualizer/_deps/sfml-build/lib/libsfml-system.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-system.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-system.so")
     if(CMAKE_INSTALL_DO_STRIP)

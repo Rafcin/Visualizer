@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild
+CMAKE_SOURCE_DIR = /home/raf/Desktop/visualizer/_deps/sfml-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild
+CMAKE_BINARY_DIR = /home/raf/Desktop/visualizer/_deps/sfml-subbuild
 
 # Utility rule file for sfml-populate.
 
@@ -65,58 +65,58 @@ CMakeFiles/sfml-populate-complete: sfml-populate-prefix/src/sfml-populate-stamp/
 CMakeFiles/sfml-populate-complete: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build
 CMakeFiles/sfml-populate-complete: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install
 CMakeFiles/sfml-populate-complete: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'sfml-populate'"
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'sfml-populate'"
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'sfml-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'sfml-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'sfml-populate'"
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-src
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src
-	/usr/bin/cmake -E make_directory /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'sfml-populate'"
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-src
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-build
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src
+	/usr/bin/cmake -E make_directory /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-gitinfo.txt
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'sfml-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps && /usr/bin/cmake -P /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
-	cd /home/raf/Desktop/path-finding-visualizer/_deps && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'sfml-populate'"
+	cd /home/raf/Desktop/visualizer/_deps && /usr/bin/cmake -P /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+	cd /home/raf/Desktop/visualizer/_deps && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'sfml-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-src && /usr/bin/cmake -P /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'sfml-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/sfml-src && /usr/bin/cmake -P /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'sfml-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'sfml-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch
+	/usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure: sfml-populate-prefix/tmp/sfml-populate-cfgcmd.txt
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'sfml-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'sfml-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'sfml-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'sfml-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build
 
 sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test: sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'sfml-populate'"
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'sfml-populate'"
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E echo_append
+	cd /home/raf/Desktop/visualizer/_deps/sfml-build && /usr/bin/cmake -E touch /home/raf/Desktop/visualizer/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test
 
 sfml-populate: CMakeFiles/sfml-populate
 sfml-populate: CMakeFiles/sfml-populate-complete
@@ -142,6 +142,6 @@ CMakeFiles/sfml-populate.dir/clean:
 .PHONY : CMakeFiles/sfml-populate.dir/clean
 
 CMakeFiles/sfml-populate.dir/depend:
-	cd /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild /home/raf/Desktop/path-finding-visualizer/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/raf/Desktop/visualizer/_deps/sfml-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raf/Desktop/visualizer/_deps/sfml-subbuild /home/raf/Desktop/visualizer/_deps/sfml-subbuild /home/raf/Desktop/visualizer/_deps/sfml-subbuild /home/raf/Desktop/visualizer/_deps/sfml-subbuild /home/raf/Desktop/visualizer/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sfml-populate.dir/depend
 

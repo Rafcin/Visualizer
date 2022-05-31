@@ -12,8 +12,8 @@ project(imgui-sfml-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(imgui-sfml-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/eliasdaler/imgui-sfml" "GIT_TAG" "82dc2033e51b8323857c3ae1cf1f458b3a933c35"
-                    SOURCE_DIR          "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-src"
-                    BINARY_DIR          "/home/raf/Desktop/path-finding-visualizer/_deps/imgui-sfml-build"
+                    SOURCE_DIR          "/home/raf/Desktop/visualizer/_deps/imgui-sfml-src"
+                    BINARY_DIR          "/home/raf/Desktop/visualizer/_deps/imgui-sfml-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/BlendMode.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/BlendMode.cpp
 SFML/Graphics/BlendMode.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/CircleShape.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/CircleShape.cpp
 SFML/Graphics/CircleShape.hpp
 -
 cmath
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Color.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Color.cpp
 SFML/Graphics/Color.hpp
 -
 algorithm
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/ConvexShape.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/ConvexShape.cpp
 SFML/Graphics/ConvexShape.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Font.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Font.cpp
 SFML/Graphics/Font.hpp
 -
 SFML/Graphics/GLCheck.hpp
@@ -44,7 +44,7 @@ cstdlib
 cstring
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/GLCheck.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/GLCheck.cpp
 SFML/Graphics/GLCheck.hpp
 -
 SFML/System/Err.hpp
@@ -52,7 +52,7 @@ SFML/System/Err.hpp
 string
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/GLExtensions.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/GLExtensions.cpp
 SFML/Graphics/GLExtensions.hpp
 -
 SFML/Window/Context.hpp
@@ -60,19 +60,19 @@ SFML/Window/Context.hpp
 SFML/System/Err.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/GLLoader.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/GLLoader.cpp
 SFML/Graphics/GLLoader.hpp
 -
 SFML/Window/Context.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Glsl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Glsl.cpp
 SFML/Graphics/Glsl.hpp
 -
 algorithm
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Image.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Image.cpp
 SFML/Graphics/Image.hpp
 -
 SFML/Graphics/ImageLoader.hpp
@@ -86,7 +86,7 @@ algorithm
 cstring
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/ImageLoader.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/ImageLoader.cpp
 SFML/Graphics/ImageLoader.hpp
 -
 SFML/System/InputStream.hpp
@@ -100,19 +100,19 @@ stb_image_write.h
 cctype
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RectangleShape.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RectangleShape.cpp
 SFML/Graphics/RectangleShape.hpp
 -
 cmath
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RenderStates.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RenderStates.cpp
 SFML/Graphics/RenderStates.hpp
 -
 cstddef
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTarget.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTarget.cpp
 SFML/Graphics/RenderTarget.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -144,7 +144,7 @@ algorithm
 map
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTexture.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTexture.cpp
 SFML/Graphics/RenderTexture.hpp
 -
 SFML/Graphics/RenderTextureImplFBO.hpp
@@ -154,11 +154,11 @@ SFML/Graphics/RenderTextureImplDefault.hpp
 SFML/System/Err.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.cpp
 SFML/Graphics/RenderTextureImpl.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.cpp
 SFML/Graphics/RenderTextureImplDefault.hpp
 -
 SFML/Graphics/GLCheck.hpp
@@ -170,7 +170,7 @@ SFML/Window/Context.hpp
 SFML/System/Err.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.cpp
 SFML/Graphics/RenderTextureImplFBO.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -188,7 +188,7 @@ utility
 set
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/RenderWindow.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/RenderWindow.cpp
 SFML/Graphics/RenderWindow.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -198,7 +198,7 @@ SFML/Graphics/GLCheck.hpp
 SFML/Graphics/RenderTextureImplFBO.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Shader.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Shader.cpp
 SFML/Graphics/Shader.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -224,7 +224,7 @@ fstream
 vector
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Shape.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Shape.cpp
 SFML/Graphics/Shape.hpp
 -
 SFML/Graphics/RenderTarget.hpp
@@ -236,7 +236,7 @@ SFML/System/Err.hpp
 cmath
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Sprite.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Sprite.cpp
 SFML/Graphics/Sprite.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -246,7 +246,7 @@ SFML/Graphics/RenderTarget.hpp
 cstdlib
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Text.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Text.cpp
 SFML/Graphics/Text.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -256,7 +256,7 @@ SFML/Graphics/RenderTarget.hpp
 cmath
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Texture.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Texture.cpp
 SFML/Graphics/Texture.hpp
 -
 SFML/Graphics/Image.hpp
@@ -280,33 +280,33 @@ cassert
 cstring
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/TextureSaver.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/TextureSaver.cpp
 SFML/Graphics/TextureSaver.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Transform.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Transform.cpp
 SFML/Graphics/Transform.hpp
 -
 cmath
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Transformable.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Transformable.cpp
 SFML/Graphics/Transformable.hpp
 -
 cmath
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/Vertex.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/Vertex.cpp
 SFML/Graphics/Vertex.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/VertexArray.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/VertexArray.cpp
 SFML/Graphics/VertexArray.hpp
 -
 SFML/Graphics/RenderTarget.hpp
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/VertexBuffer.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/VertexBuffer.cpp
 SFML/Graphics/VertexBuffer.hpp
 -
 SFML/Graphics/RenderTarget.hpp
@@ -324,7 +324,7 @@ SFML/System/Err.hpp
 cstring
 -
 
-/home/raf/Desktop/path-finding-visualizer/_deps/sfml-src/src/SFML/Graphics/View.cpp
+/home/raf/Desktop/visualizer/_deps/sfml-src/src/SFML/Graphics/View.cpp
 SFML/Graphics/View.hpp
 -
 cmath
