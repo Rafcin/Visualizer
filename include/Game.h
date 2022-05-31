@@ -14,10 +14,8 @@
 namespace visualizer {
 
 static const std::vector<std::string> GRAPH_BASED_PLANNERS{"BFS", "DFS",
-                                                           "DIJKSTRA", "A*"};
-static const std::vector<std::string> SAMPLING_BASED_PLANNERS{"RRT", "RRT*"};
-enum GRAPH_BASED_PLANNERS_IDS { BFS, DFS, DIJKSTRA, AStar };
-enum SAMPLING_BASED_PLANNERS_IDS { RRT, RRT_STAR };
+                                                           "DIJKSTRA", "ASTAR"};
+enum GRAPH_BASED_PLANNERS_IDS { BFS, DFS, DIJKSTRA, ASTAR };
 
 class Game {
  public:

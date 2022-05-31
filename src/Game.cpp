@@ -1,10 +1,14 @@
 #include "Game.h"
 
+#include "States/Algorithms/GraphBased/ASTAR/ASTAR.h"
 #include "States/Algorithms/GraphBased/BFS/BFS.h"
 #include "States/Algorithms/GraphBased/DFS/DFS.h"
+#include "States/Algorithms/GraphBased/DIJKSTRA/DIJKSTRA.h"
 
 using bfs_state_type = visualizer::graph_based::BFS;
 using dfs_state_type = visualizer::graph_based::DFS;
+using dijkstra_state_type = visualizer::graph_based::DIJKSTRA;
+using astar_state_type = visualizer::graph_based::ASTAR;
 
 namespace visualizer {
 
@@ -332,9 +336,17 @@ void Game::setGraphBasedPlanner(const int id) {
       // DFS
       states_.push(std::make_unique<dfs_state_type>(logger_panel_));
       break;
+    case GRAPH_BASED_PLANNERS_IDS::DIJKSTRA:
+      // Dijkstra
+      states_.push(std::make_unique<dijkstra_state_type>(logger_panel_));
+      break;
+    case GRAPH_BASED_PLANNERS_IDS::ASTAR:
+      // A-Star
+      states_.push(std::make_unique<astar_state_type>(logger_panel_));
+      break;
     default:
       break;
   }
 }
 
-}  // namespace visualizer
+}

@@ -10,6 +10,8 @@ include_directories(include/States/Algorithms)
 include_directories(include/States/Algorithms/GraphBased)
 include_directories(include/States/Algorithms/GraphBased/BFS)
 include_directories(include/States/Algorithms/GraphBased/DFS)
+include_directories(include/States/Algorithms/GraphBased/DIJKSTRA)
+include_directories(include/States/Algorithms/GraphBased/ASTAR)
 
 set(EXECUTABLE_NAME "main")
 
@@ -21,6 +23,8 @@ add_executable(${EXECUTABLE_NAME}
   src/States/Algorithms/GraphBased/Node.cpp
   src/States/Algorithms/GraphBased/BFS/BFS.cpp
   src/States/Algorithms/GraphBased/DFS/DFS.cpp
+  src/States/Algorithms/GraphBased/DIJKSTRA/DIJKSTRA.cpp
+  src/States/Algorithms/GraphBased/ASTAR/ASTAR.cpp
 )
 
 target_link_libraries(
