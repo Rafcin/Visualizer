@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "visualizer",
+      "includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/include/States",
+        "${workspaceFolder}/include/States/Algorithms",
+        "${workspaceFolder}/include/States/Algorithms/GraphBased",
+        "${workspaceFolder}/include/States/Algorithms/GraphBased/BFS",
+        "${workspaceFolder}/include/States/Algorithms/GraphBased/DFS",
+        "${workspaceFolder}/include/States/Algorithms/GraphBased/DIJKSTRA",
+        "${workspaceFolder}/include/States/Algorithms/GraphBased/ASTAR"
+      ]
+    }
+  ],
+  "version": 4
+}
